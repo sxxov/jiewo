@@ -1,0 +1,16 @@
+export default {
+	trailingComma: 'all',
+	useTabs: true,
+	tabWidth: 4,
+	singleQuote: true,
+	jsxSingleQuote: true,
+	endOfLine: 'lf',
+	singleAttributePerLine: false,
+	htmlWhitespaceSensitivity: 'css',
+	experimentalTernaries: true,
+	experimentalOperatorPosition: 'end',
+	tsdoc: true,
+	jsdocNamedImportPadding: true,
+	jsdocNamedImportLineSplitting: false,
+	plugins: ['prettier-plugin-jsdoc', 'prettier-plugin-inline-blocks'],
+};

@@ -1,0 +1,42 @@
+{
+	"name": "jiewo",
+	"version": "0.0.1",
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"test": "vitest run",
+		"build": "vite build",
+		"prepare": "ts-patch install -s"
+	},
+	"author": "sxxov",
+	"license": "MIT",
+	"type": "module",
+	"devDependencies": {
+		"@microsoft/api-extractor": "^7.55.2",
+		"@types/node": "^25.0.3",
+		"eslint": "^9.39.2",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-config-xo": "^0.49.0",
+		"eslint-config-xo-typescript": "^9.0.0",
+		"eslint-plugin-html": "^8.1.3",
+		"eslint-plugin-jsdoc": "^61.5.0",
+		"eslint-plugin-only-warn": "^1.1.0",
+		"eslint-plugin-prettier": "^5.5.4",
+		"prettier": "^3.7.4",
+		"prettier-plugin-inline-blocks": "^0.0.3",
+		"prettier-plugin-jsdoc": "^1.8.0",
+		"ts-node": "^10.9.2",
+		"ts-patch": "^3.3.0",
+		"typescript": "^5.9.3",
+		"typescript-eslint": "^8.50.1",
+		"unplugin-dts": "^1.0.0-beta.6",
+		"vite": "^7.3.0",
+		"vite-plugin-typescript-transform": "^1.3.1",
+		"vite-tsconfig-paths": "^6.0.3",
+		"vitest": "^4.0.16"
+	},
+	"peerDependencies": {
+		"typescript": ">=5"
+	}
+}

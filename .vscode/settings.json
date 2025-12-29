@@ -1,0 +1,35 @@
+{
+	"[javascript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	"[glsl]": {
+		"editor.defaultFormatter": "xaver.clang-format"
+	},
+	"editor.colorDecorators": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit"
+	},
+	"typescript.preferences.importModuleSpecifierEnding": "minimal",
+	"typescript.preferences.importModuleSpecifier": "shortest",
+	"javascript.preferences.importModuleSpecifierEnding": "minimal",
+	"javascript.preferences.importModuleSpecifier": "shortest",
+	"task.allowAutomaticTasks": "on",
+	"testing.automaticallyOpenPeekView": "never",
+	"files.eol": "\n",
+	"javascript.preferences.useAliasesForRenames": false,
+	"typescript.preferences.useAliasesForRenames": false
+}
