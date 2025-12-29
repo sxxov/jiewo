@@ -7,8 +7,12 @@
 	"scripts": {
 		"test": "vitest run",
 		"build": "vite build",
-		"prepare": "ts-patch install -s"
+		"prepare": "ts-patch install -s",
+		"prepublishOnly": "vite build"
 	},
+	"files": [
+		"dist"
+	],
 	"author": "sxxov",
 	"license": "MIT",
 	"type": "module",
