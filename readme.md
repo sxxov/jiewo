@@ -110,6 +110,22 @@ export default {
 > **TODO**: Add instructions for other build tools (e.g. turbopack, webpack, etc.).
 > Contributions welcome!
 
+## Benchmark
+
+See [`jiewo-sudoku`](https://github.com/sxxov/jiewo-sudoku) for a benchmark of a Sudoku solver written with `jiewo`, compared to other implementations.
+
+### Example Run
+
+Using `jiewo` produces a solver that is about **50% faster** than "idiomatic" TypeScript.
+
+```
+ ✓ test/all/index.bench.ts 2123ms
+     name             hz     min     max    mean     p75     p99    p995    p999     rme  samples
+   · managed    2,662.10  0.3339  0.5036  0.3756  0.3799  0.3939  0.4015  0.4328  ±0.13%     1332
+   · unmanaged  1,351.65  0.6619  0.8552  0.7398  0.7458  0.8070  0.8139  0.8552  ±0.20%      676
+   · idiomatic  1,863.47  0.4717  0.6816  0.5366  0.5435  0.5976  0.6283  0.6816  ±0.22%      932
+```
+
 ## Use-cases
 
 ### Performance-critical libraries
